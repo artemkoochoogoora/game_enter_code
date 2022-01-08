@@ -4,3 +4,5 @@ code = random.randint(10000,100000)
 cookies = input("Введите код из почты:")
 if code == cookies :
     print("Совпал!")
+else:
+    print("неверный код! =(")
