@@ -10,6 +10,6 @@ message_text = "your code is " + str(code)
 smtpObj.sendmail("botgameentercode@gmail.com",coders,message_text)
 cookies = input("Введите код из почты:")
 if str(code) == cookies :
-    print("Ого! А ты крутой =)!  ")
+    print("Ого! А ты крутой =)!   ")
 else:
     print("неверный код! =(")
